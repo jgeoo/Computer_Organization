@@ -26,6 +26,7 @@ public class TestBenchCPU {
         time = timer.stop();
 
         log.write("Finished in",toTimeUnit(time,Sec),"");
+        bench.clean();
         log.close();
 
     }

@@ -59,12 +59,6 @@ public class DemoBenchmark2 implements IBenchmark {
     public void clean() {
 
     }
-
-    public String getresult() {
-        return null;
-    }
-
-    @Override
     public String getResult() {
         return null;
     }

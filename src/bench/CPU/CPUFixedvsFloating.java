@@ -62,13 +62,6 @@ public class CPUFixedvsFloating implements IBenchmark {
     @Override
     public void clean() {
     }
-
-    @Override
-    public String getresult() {
-        return null;
-    }
-
-
     public String getResult() {
         return String.valueOf(result);
     }

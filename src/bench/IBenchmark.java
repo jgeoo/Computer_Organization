@@ -15,7 +15,5 @@ public interface IBenchmark {
 
     void clean();
 
-    String getresult();
-
     String getResult();
 }

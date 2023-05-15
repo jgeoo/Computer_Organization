@@ -161,11 +161,6 @@ public class CPUFixedPoint implements IBenchmark {
     }
 
     @Override
-    public String getresult() {
-        return null;
-    }
-
-    @Override
     public void cancel() {
 
     }

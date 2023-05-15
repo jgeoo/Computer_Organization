@@ -1,11 +1,10 @@
 package bench.CPU;
 
 import bench.IBenchmark;
-import java.math.*;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-import java.math.BigDecimal;
 import java.util.Random;
 
 public class CPUDigitsOfPI implements IBenchmark {
@@ -125,12 +124,6 @@ public class CPUDigitsOfPI implements IBenchmark {
     public void clean() {
 
     }
-
-    @Override
-    public String getresult() {
-        return null;
-    }
-
     @Override
     public String getResult() {
         return null;
